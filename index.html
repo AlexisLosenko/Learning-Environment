@@ -1,75 +1,63 @@
 <html>
+<TITLE>Learning HTML</TITLE><BODY><P><FONT face="Monospace" color="#00FF00" size="5">
+		<body bgcolor="#000000">
+			<br><head>HTML</head></br>
 
-Pour commencer, lorsque vous faite de l'HTML, il faut ouvrir le code avec la balise &lt;html&gt; et la finir avec la même chose, subtilitée en plus, avec un / (c'est à dire &lt;/html&gt;
+<br>Pour commencer;
+lorsque vous faite de l'HTML, il faut ouvrir le code avec la balise &lt;html&gt; et la finir avec la même chose, subtilitée en plus, avec un / (c'est à dire &lt;/html&gt;</br>
 
-Titres :
-
-&lt;h1&gt;
+<br><h2>Titre</h2></br>
 
 Exemple:
-<h1> h1 me permet d'écrire sous cette taille </h1>
+<h3> &lt;h3&gt; me permet d'écrire sous cette taille </h3>
 
-<h2>Alors qu'h2 donne cette taille-ci </h2>
+<h4>Alors qu'&lt;h4&gt; donne cette taille-ci </h4>
 
-Plus on monte dans les chiffres, plus grand sera le titre
-
-
-
-<h3>Italic , Gras , etc </h3>
-
-Pour l'italic vous pouvez juste le faire avec *les astérisque* ou _l'underscore_
-
-Pour le Gras meme chose mais en double **avec les astérisques** ou __ avec les underscores__
-
-Pour combiner italic et gras **astérisques et _underscore_**
-
-Pour barrer simplement deux vagues. ~~barre ceci~~
-Pour l'italic vous pouvez juste le faire avec les astérisque ou l'underscore
-
-Pour le Gras meme chose mais en double avec les astérisques ou __ avec les $
-
-Pour combiner italic et gras astérisques et underscore
-
-Pour barrer simplement deux vagues. barre ceci
-
-Différent moyen de lister
-1. Premier
-2. Deuxieme
-..* Sous-list
-1. il faut juste que se soit des nombre n'importe le quels
-..1.Sous-list dans l'ordre
-4. et un autre article
+Plus on monte dans les chiffres, plus petit sera le titre
 
 
-* Liste sans ordre peut etre fait avec des astérisques
-- ou tiret
-+ ou plus
-Premier
-Deuxieme ..* Sous-list
-il faut juste que se soit des nombre n'importe le quels ..1.Sous-list dans l'ordre
-et un autre article
-Liste sans ordre peut etre fait avec des astérisques
-ou tiret
-ou plus
-Et afin de créer des listes imbriquées, il faut:
 
-Mettre une * derrière la phrase ou le mot, de passer à la ligne, faire deux espaces et remettre un * pour créer la liste imbriquée
-Liens
-il existe plusieurs façons de créer des liens.
-[Je suis un lien](https://www.google.com)
+<h2>Italic , Gras , etc </h2>
 
-[Je suis un lien avec titre](https://www.google.com "Google's Homepage")
+<br>Pour ce qui est de l'italique, votre balise doit contenir au début la balise &lt;i&gt;</br>
 
-[Je suis un lien de référence a un fichier](../blob/master/LICENSE)
+<br>Pour le Gras , la balise doit être &lt;b&gt;</br>
 
-Les URL et les URL entre crochets seront automatiquement transformées en liens http://www.exemple.com ou <http://www.exemple.com> et parfois exemple.com ( mais pas sur gitHub, par exemple ).
-Je suis un lien
+<br>Pour que les deux soient réunis, c'est &lt;b&gt;&lt;i&gt;(ou l'inverse)</br>
 
-Je suis un lien avec titre
+<br>Et enfin, pour écrire en italique, il faut la balise &lt;s&gt;
 
-Je suis un lien de référence a un fichier
+<br>Exemple:</br>
 
-Les URL et les URL entre crochets seront automatiquement transformées en liens. http://www.exemple.com ou http://www.exemple.com et parfois example.com (mais pas sur Github, par exemple).
+<br><b>Est gras</b></br>
+
+<br><i>est fin</i></br>
+
+<br><s>est mal barré</s></br>
+
+
+il existe différentes manière de créer des liens vers un site externe à celui-ci en HTML
+<br>
+Par exemple:
+<br>
+Pour que un lien renvoie vers une autre page de votre page web, il faut écrire
+</br>
+<br>
+&lt;a href="pageX.htm"&gt;votre lien &lt;/a&gt;
+</br>
+<br>
+Pour que le lien s'ouvre sur une autre page web dans un nouvelle onglet
+</br>
+<br>
+&lt;a href="pagemachin" target="_blank"&gt; le lien &lt;/a&gt;
+</br>
+<br>
+et enfin, celui-ci permet de se rediriger sur un nouveau site (www)
+</br>
+<br>
+&lt;a href="http://www.lesite.org"&gt; TapTapTap &lt;/a&gt;
+</br>
+
 
 #Images/Logo
 
@@ -164,5 +152,6 @@ Pour la coloration syntaxique, il suffit après trois ` de mettre le nom du lang
 <script type="text/javascript">
 	alert("Hello!");
 </script>
-
+		</body>
+</FONT>
 </html>
